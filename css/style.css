@@ -289,7 +289,16 @@ footer {
     text-align: center;
     padding: 2rem;
     background: #00274c;
-    color: white;
+    color:white;
+}
+
+footer a {
+    color:white;
+    text-decoration: underline;}
+
+footer a:hover {
+    color: #ffcb05;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
