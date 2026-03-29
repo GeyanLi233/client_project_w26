@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Oops! The page is not found.</title>
+</head>
+<body>
+
+    <header>
+  <a href = "#main-content" class = "skipper">Skip to Main Content</a>
+    </header>
+    
+    <main class="container" id="main-content">
+      <header class="main-page-header">
+          <h1 class="main-title">Oops! The page is not found.</h1>
+          <a href="index.html">Go back to homepage</a>
+      </header>
+
+
+      <section class="feedback-section">
+        <h2>...or help us improve:</h2>
+
+            <div class="form-group">
+                <label for="issue-details">What went wrong?</label>
+                <textarea id="issue-details" name="details" rows="4" required placeholder="e.g., The link to the resume guide book is broken..."></textarea>
+            </div>
+  
+            <button type="submit" class="submit-btn">Send Feedback</button>
+        </form>
+    </section>
+
+
+      </main>
+    <footer>
+        <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+        <p>Career Development : (734) 647-7650 | umsi.careers@umich.edu | 2260 Leinweber Building </a></p>
+        <p>© Copyrights <span id="year"></span> by Geyan Li. All rights reserved.</p>
+        </footer>
+</body>
+</html>
+
+<!-- Reference: https://www.codexworld.com/how-to/get-current-year-to-display-dynamic-year-in-copyright-using-javascript/ -->
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+
+
